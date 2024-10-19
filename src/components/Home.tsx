@@ -24,8 +24,8 @@ const Home: React.FC<HomeProps> = ({ language, onStartQuestionnaire }) => {
       </h1>
       <p className="mb-6">
         {language === 'es'
-          ? 'DORA Analyzer es una herramienta para evaluar y mejorar sus prácticas de desarrollo y operaciones.'
-          : 'DORA Analyzer é uma ferramenta para avaliar e melhorar suas práticas de desenvolvimento e operações.'}
+          ? 'DORA Analyzer es una herramienta diseñada para evaluar  la conformidad con el Reglamento DORA (UE) 2022/2554.'
+          : 'DORA Analyzer é uma ferramenta concebida para avaliar a conformidade com o Regulamento DORA (UE) 2022/2554.'}
       </p>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
