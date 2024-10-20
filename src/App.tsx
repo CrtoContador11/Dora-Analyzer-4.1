@@ -83,8 +83,8 @@ const App: React.FC = () => {
   {
     id: 6,
     text: {
-      es: "{financialEntityName} debe realizar un análisis de riesgos de los activos proporcionados por {providerName} ¿Hay constancia de que sea así? ¿Por ejemplo, {financialEntityName} ha pedido detalles de algún activo para poder evaluar riesgos?",
-      pt: "{financialEntityName} deve realizar uma análise de riscos dos ativos fornecidos por {providerName}. Há evidências disso? Por exemplo, {financialEntityName} pediu detalhes de algum ativo para poder avaliar riscos?"
+      es: "{financialEntityName} debe realizar un análisis de riesgos de los activos proporcionados por {providerName} ¿Hay constancia de que sea así? ¿Por ejemplo {financialEntityName} ha pedido detalles de algún activo para poder evaluar riesgos?",
+      pt: "{financialEntityName} deve realizar uma análise de riscos dos ativos fornecidos por {providerName}. Há evidências disso? Por exemplo {financialEntityName} pediu detalhes de algum ativo para poder avaliar riscos?"
     },
     categoryId: 1,
     options: [
