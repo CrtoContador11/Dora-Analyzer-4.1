@@ -24,8 +24,8 @@ const Home: React.FC<HomeProps> = ({ language, onStartQuestionnaire }) => {
       </h1>
       <p className="mb-6">
         {language === 'es'
-          ? 'DORA Analyzer es una herramienta diseñada para evaluar  la conformidad con el Reglamento DORA (UE) 2022/2554.'
-          : 'DORA Analyzer é uma ferramenta concebida para avaliar a conformidade com o Regulamento DORA (UE) 2022/2554.'}
+          ? 'DORA Analyzer es una herramienta desarrollada por Ozona Consulting para MEO para recopilar y analizar información de las entidades financieras clientes de MEO que deben tener cumplimiento con el reglamento europeo DORA.'
+          : 'DORA Analyzer é uma ferramenta desenvolvida pela Ozona Consulting para a MEO para recolher e analisar informação das entidades financeiras clientes da MEO que devem estar em conformidade com o regulamento europeu DORA.'}
       </p>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
