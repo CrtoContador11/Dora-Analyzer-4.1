@@ -83,8 +83,8 @@ const App: React.FC = () => {
   {
     id: 6,
     text: {
-      es: "{financialEntityName} debe realizar un análisis de riesgos de los activos proporcionados por {providerName} ¿Hay constancia de que sea así? ¿Por ejemplo {financialEntityName} ha pedido detalles de algún activo para poder evaluar riesgos?",
-      pt: "{financialEntityName} deve realizar uma análise de riscos dos ativos fornecidos por {providerName}. Há evidências disso? Por exemplo {financialEntityName} pediu detalhes de algum ativo para poder avaliar riscos?"
+      es: "La entidad financiera debe realizar un análisis de riesgos de los activos proporcionados por {providerName} ¿Hay constancia de que sea así? ¿Por ejemplo {financialEntityName} ha pedido detalles de algún activo para poder evaluar riesgos?",
+      pt: "A entidade financeiradeve realizar uma análise de riscos dos ativos fornecidos por {providerName}. Há evidências disso? Por exemplo {financialEntityName} pediu detalhes de algum ativo para poder avaliar riscos?"
     },
     categoryId: 1,
     options: [
@@ -181,8 +181,8 @@ const App: React.FC = () => {
   {
     id: 13,
     text: {
-      es: "¿Conoce su impacto en la gestión de acceso, autenticidad, integridad y confidencialidad de la información de {financialEntityName} o que se comparte con {financialEntityName}?",
-      pt: "Conhece o impacto na gestão de acesso, autenticidade, integridade e confidencialidade da informação de {financialEntityName} ou que é partilhada com {financialEntityName}?"
+      es: "¿Conoce su impacto en la gestión de acceso, autenticidad, integridad y confidencialidad de la información de {financialEntityName} o que se comparte con la entidad",
+      pt: "Conhece o impacto na gestão de acesso, autenticidade, integridade e confidencialidade da informação de {financialEntityName} ou que é partilhada com a entidade. "
     },
     categoryId: 3,
     options: [
@@ -335,8 +335,8 @@ const App: React.FC = () => {
   {
     id: 24,
     text: {
-      es: "¿Ha solicitado {financialEntityName} que {providerName} participe en programas de formación específicos desarrollados por {financialEntityName} para garantizar que {providerName} está alineado con los estándares y procedimientos internos del cliente?",
-      pt: "{financialEntityName} solicitou que {providerName} participe em programas de formação específicos desenvolvidos por {financialEntityName} para garantir que {providerName} está alinhado com as normas e procedimentos internos do cliente?"
+      es: "¿Ha solicitado {financialEntityName} que {providerName} participe en programas de formación específicos desarrollados por la entidad para garantizar que está alineado con los estándares y procedimientos internos del cliente?",
+      pt: "{financialEntityName} solicitou que {providerName} participe em programas de formação específicos desenvolvidos por a entidade para garantir que está alinhado com as normas e procedimentos internos do cliente?"
     },
     categoryId: 11,
     options: [
@@ -363,8 +363,8 @@ const App: React.FC = () => {
   {
     id: 26,
     text: {
-      es: "¿El contrato con {financialEntityName} define claramente los derechos de rescisión del contrato de {financialEntityName}, asegurando el cumplimiento de los plazos de preaviso mínimos exigidos por las autoridades competentes?",
-      pt: "O contrato com {financialEntityName} define claramente os direitos de rescisão do contrato por parte de {financialEntityName}, garantindo o cumprimento dos prazos mínimos de pré-aviso exigidos pelas autoridades competentes?"
+      es: "¿El contrato con {financialEntityName} define claramente los derechos de rescisión del contrato, asegurando el cumplimiento de los plazos de preaviso mínimos exigidos por las autoridades competentes?",
+      pt: "O contrato com {financialEntityName} define claramente os direitos de rescisão do contrato, garantindo o cumprimento dos prazos mínimos de pré-aviso exigidos pelas autoridades competentes?"
     },
     categoryId: 13,
     options: [
